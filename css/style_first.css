@@ -1,0 +1,37 @@
+
+.ui-content { background: transparent; max-width: 1000px;  margin: 0 auto; }
+
+
+.box {
+	margin: 40pt 0;
+	padding: 4pt;
+}
+.box h2 {
+	color: #fafafa;
+	text-align: center;
+	padding: 12pt 0;
+	margin-top: 0;
+	text-shadow: 0 1px 1px #4d4d4d;;
+	border-radius: 6pt;
+}
+
+#header { text-align: center; }
+#header .logo {
+	background: url(../img/header_logo.png) no-repeat center center;
+	height: 220px;
+	margin: 20pt 0 0 0;
+}
+#header .info h2 { color: #666; }
+#header .vklink {
+	color: red;
+	font-family: "Champagne & Limousines";
+	font-size: 24pt;
+	padding: 6pt 24pt;
+}
+#header .vklink:hover {
+	background-color: red;
+	color: white;
+}
+@media all and (max-width: 390px) {
+  #header .logo { background-image: url(../img/header_logo_280.png);}
+}
