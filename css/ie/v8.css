@@ -1,0 +1,52 @@
+/*
+Error: File to import not found or unreadable: vars.
+       Load path: /home/xtsidx/Проекты/for letter/new-website/sass/ie
+        on line 1 of /home/xtsidx/Проекты/for letter/new-website/sass/ie/v8.scss
+
+1: @import 'vars';
+2: @import 'mixins';
+3: 
+4: /*
+5: 	Read Only by HTML5 UP
+6: 	html5up.net | @n33co
+
+Backtrace:
+/home/xtsidx/Проекты/for letter/new-website/sass/ie/v8.scss:1
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/home/xtsidx/.gem/ruby/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
+/home/xtsidx/koala/bin/sass:18:in `load'
+/home/xtsidx/koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: vars.\A        Load path: /home/xtsidx/Проекты/for letter/new-website/sass/ie\A         on line 1 of /home/xtsidx/Проекты/for letter/new-website/sass/ie/v8.scss\A \A 1: @import 'vars';\A 2: @import 'mixins';\A 3: \A 4: /*\A 5: 	Read Only by HTML5 UP\A 6: 	html5up.net | @n33co"; }
